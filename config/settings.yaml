@@ -1,0 +1,11 @@
+anthropic:
+  model: claude-opus-4-5
+  max_tokens: 4096
+extraction:
+  max_chunk_size: 8000
+  overlap: 200
+graph:
+  max_nodes: 150
+output:
+  graph_title: "Legal Knowledge Graph"
+  open_browser: true
